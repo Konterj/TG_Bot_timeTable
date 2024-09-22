@@ -102,19 +102,19 @@ internal class Program
         string imagePath;
         switch (DateTime.Now.DayOfWeek)
         {
-            case DayOfWeek.Monday:
+            case DayOfWeek.Sunday:
                 imagePath = "Images/Monday.png";
                 break;
-            case DayOfWeek.Tuesday:
+            case DayOfWeek.Monday:
                 imagePath = "Images/Tuesday.png";
                 break;
-            case DayOfWeek.Wednesday:
+            case DayOfWeek.Tuesday:
                 imagePath = "Images/Wednesday.png";
                 break;
-            case DayOfWeek.Thursday:
+            case DayOfWeek.Wednesday:
                 imagePath = "Images/Thursday.png";
                 break;
-            case DayOfWeek.Friday:
+            case DayOfWeek.Thursday:
                 imagePath = "Images/Friday.png";
                 break;
             default:
